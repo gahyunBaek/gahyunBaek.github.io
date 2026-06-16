@@ -3,9 +3,9 @@ title: Blog
 permalink: /blog/
 ---
 
-# Blog
+#### Blog
 
-## Categories
+##### Categories
 
 {% for category in site.categories %}
 <section class="card">
@@ -22,7 +22,7 @@ permalink: /blog/
 </section>
 {% endfor %}
 
-## All Posts
+##### All Posts
 
 <ul class="list-clean">
 {% for post in site.posts %}
